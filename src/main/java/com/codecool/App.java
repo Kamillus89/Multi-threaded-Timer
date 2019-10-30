@@ -5,7 +5,7 @@ public class App {
         System.out.println("Multi-threaded app started");
     }
 
-    public static void main( String[] args ) {
+    public static void main( String[] args ) throws InterruptedException {
         Controller controller = new Controller();
         controller.run();
     }

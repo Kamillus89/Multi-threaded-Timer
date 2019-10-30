@@ -6,6 +6,7 @@ public class View {
 
     public String[] askUserForInput() {
         Scanner scan = new Scanner(System.in);
+        System.out.println("Command?");
         String[] userInput = scan.nextLine().split(" ");
         return userInput;
     }
